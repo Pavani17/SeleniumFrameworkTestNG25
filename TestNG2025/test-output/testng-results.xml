@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-29T16:20:24 IST" name="Default suite" finished-at="2025-01-29T16:20:24 IST" duration-ms="59">
+    <groups>
+    </groups>
+    <test started-at="2025-01-29T16:20:24 IST" name="Default test" finished-at="2025-01-29T16:20:24 IST" duration-ms="59">
+      <class name="testNGDemo.ChildclassDemo">
+        <test-method is-config="true" signature="beforeRunParent()[pri:0, instance:testNGDemo.ChildclassDemo@429bffaa]" started-at="2025-01-29T16:20:24 IST" name="beforeRunParent" finished-at="2025-01-29T16:20:24 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRunParent -->
+        <test-method signature="runchildTest()[pri:0, instance:testNGDemo.ChildclassDemo@429bffaa]" started-at="2025-01-29T16:20:24 IST" name="runchildTest" finished-at="2025-01-29T16:20:24 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runchildTest -->
+        <test-method is-config="true" signature="afterRunParent()[pri:0, instance:testNGDemo.ChildclassDemo@429bffaa]" started-at="2025-01-29T16:20:24 IST" name="afterRunParent" finished-at="2025-01-29T16:20:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunParent -->
+      </class> <!-- testNGDemo.ChildclassDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

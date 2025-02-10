@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="testNGDemo.Listeners"></listener>
+	</listeners>
+	<parameter name="URL" value="https://rahulshettyacademy.com/locatorspractice/"></parameter>
+	<test name="HomeLoan" parallel="classes" thread-count="3">
+		<classes>
+			<class name="testNGDemo.Demo1Test" />
+			<class name="testNGDemo.Demo2" />
+			<class name="testNGDemo.Demo4">
+				<methods>
+					<include name="APILoginPersonalLoan"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="PersonalLoan">
+		<parameter name="URLloc" value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+		<parameter name="APIKey" value="467"></parameter>
+		<classes>
+			<class name="testNGDemo.Demo3">
+				
+				<methods>
+					<exclude name="APILoginHomeLoan"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name ="Loans">
+		<classes>
+			<class name="testNGDemo.Demo5">
+				<methods>
+					<exclude name="Mobile.*"></exclude>
+				</methods>
+			</class>
+			</classes>
+	</test>
+</suite> 

@@ -1,0 +1,9 @@
+frameworks\E2ETest.class
+frameworks\ErrorValidationTest.class
+testComponents\Retry.class
+frameworks\ActualE2ETest.class
+dataFiles\DataReader.class
+testComponents\BaseTest$1.class
+testComponents\BaseTest.class
+testComponents\Listeners.class
+dataFiles\DataReader$1.class
